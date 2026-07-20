@@ -1,0 +1,63 @@
+{
+  "appName": "SEA-SEE",
+  "onboarding": {
+    "namePrompt": "What should we call you?",
+    "namePlaceholder": "Enter your name",
+    "nameHelper": "This helps us personalize your suggestions",
+    "welcomeTitle": "Welcome to SEA-SEE",
+    "welcomeSubtitle": "Know where and when it's worth going out to sea",
+    "selectLanguage": "Select your language",
+    "termsTitle": "Terms & Assurance",
+    "termsBody": "SEA-SEE shows you weather, sea and tide data along with an AI suggestion. It never tells you it is safe to go to sea. The final decision is always yours.",
+    "acceptTerms": "I understand and agree",
+    "continue": "Continue",
+    "next": "Next",
+    "languages": {
+      "en": "English",
+      "ta": "தமிழ்",
+      "ml": "മലയാളം",
+      "hi": "हिन्दी"
+    }
+  },
+  "auth": {
+    "signInWithGoogle": "Sign in with Google",
+    "loginSubtitle": "Sign in to save your settings and catch history"
+  },
+  "nav": {
+    "home": "Home",
+    "weather": "Weather",
+    "tide": "Tide",
+    "settings": "Settings"
+  },
+  "login": {
+  "welcomeTitle": "Welcome!",
+  "welcomeSubtitle": "Sign in to your account and check the sea conditions.",
+  "orDivider": "or",
+  "safetyNoteTitle": "Important note",
+  "safetyNoteBody": "SEA-SEE never tells anyone it is safe to go to sea. It only gives you data and suggestions. The final decision is always yours.",
+  "trustSecure": "Secure login",
+  "trustSaved": "Your data is protected",
+  "trustAnywhere": "Access from anywhere",
+  "noAccountPrompt": "Don't have an account?",
+"signUpManually": "Sign up manually"
+},
+"hero": {
+  "tagline": "Understand the sea • Travel safely • Fish smarter",
+  "subtitle": "AI-powered fishing guidance for safer seas and better catch.",
+  "safetyBadgeTitle": "Safety First",
+  "safetyBadgeBody": "We only show data. The final decision is always yours.",
+  "feature1Title": "Best Spots",
+  "feature1Body": "Fishing spots on a live map",
+  "feature2Title": "Safety Status",
+  "feature2Body": "Green • Yellow • Red alerts",
+  "feature3Title": "Tide & Time",
+  "feature3Body": "Tide, sunrise and sunset times",
+  "feature4Title": "AI Suggestion",
+  "feature4Body": "Best time and place, in one line"
+},
+"footer": {
+  "copyright": "© 2026 SEA-SEE. All rights reserved.",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Use"
+}
+}

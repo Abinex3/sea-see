@@ -1,1 +1,39 @@
+@import "leaflet/dist/leaflet.css";
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--surface-bg);
+  --color-foreground: var(--surface-fg);
+  --color-primary: var(--surface-primary);
+  --color-secondary: var(--surface-secondary);
+
+  --color-safety-safe: #1e9e4a;
+  --color-safety-caution: #e0a800;
+  --color-safety-danger: #d92d2d;
+
+  --font-tamil: "Noto Sans Tamil", sans-serif;
+  --font-malayalam: "Noto Sans Malayalam", sans-serif;
+  --font-devanagari: "Noto Sans Devanagari", sans-serif;
+  --font-latin: "Inter", sans-serif;
+}
+
+:root {
+  --surface-bg: #fefdfd;
+  --surface-fg: #041c3b;
+  --surface-primary: #0969ae;
+  --surface-secondary: #3b93c4;
+}
+
+.dark {
+  --surface-bg: #041c3b;
+  --surface-fg: #e7fdfd;
+  --surface-primary: #12a5d8;
+  --surface-secondary: #3b93c4;
+}
+
+body {
+  @apply bg-background text-foreground;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
